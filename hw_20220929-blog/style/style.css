@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+h1,
+h2 {
+  margin-bottom: 20px;
+  color: rgb(41, 12, 206);
+}
+p {
+  margin: 10px;
+  padding: 0px 10px 5px;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  border: none;
+  color: rgb(29, 4, 61);
+  background-color: rgb(29, 4, 61);
+  height: 2px;
+  margin-bottom: 5px;
+}
+
+.page-bg {
+  background-image: url(../img/texture-2351354__340.jpg);
+  background-color: beige;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  min-height: 100vh;
+  max-width: 980px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  color: rgb(29, 4, 61);
+}
+.mypets,
+.myhobby,
+.mygoals {
+  margin-bottom: 20px;
+}
+.mypets-img {
+  width: 100px;
+}
+.myhobby-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.myhobby-logo {
+  width: 100px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.myhobby-logo:hover {
+  background-color: rgb(100, 100, 193);
+}
+.mygoals-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.mygoals-link {
+  transition: all 0.5s;
+  color: red;
+}
+.mygoals-link:hover {
+  color: rgb(29, 4, 61);
+  font-size: larger;
+  font-weight: 600;
+}
